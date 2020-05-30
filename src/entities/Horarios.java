@@ -90,8 +90,10 @@ public class Horarios {
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
 		sb.append("NOVO HORARIO: ");
-		sb.append(newTakeoffHr() +":" + newTakeoffMin ());
-	
+		sb.append(newTakeoffHr() +" Horas " + newTakeoffMin() + " Minutos\n ");
+		sb.append("---------------------------------------\n");
+		sb.append("NOVO HORARIO ZULU: ");
+		sb.append((newTakeoffHr()+3) +" Horas (+3) " + newTakeoffMin() + " Minutos\n ");
 		return sb.toString();
 	
 	}

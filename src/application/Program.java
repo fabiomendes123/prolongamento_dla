@@ -41,8 +41,8 @@ public static void main(String[] args) {
 		 			+ "digite como no exemplo! \n"
 		 	   		+ e.getMessage());
 		}
-		System.out.println("----------------------------------------");
-		System.out.print("Deseja repetir (s/n)? ");
+		System.out.print("----------------------------------------\n");
+		System.out.println("Deseja repetir (s/n)? ");
 		c = sc.next().charAt(0);
 		Horarios.clearScreen();;
 		
