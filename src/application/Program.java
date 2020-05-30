@@ -34,7 +34,13 @@ public static void main(String[] args) {
 		 	   		+ "\n"
 		 			+ "digite como no exemplo! \n"
 		 	   		+ e.getMessage());
-		    }
+			}
+		catch (StringIndexOutOfBoundsException e) {
+			System.out.println("Erro de formato... "
+		 	   		+ "\n"
+		 			+ "digite como no exemplo! \n"
+		 	   		+ e.getMessage());
+		}
 		System.out.println("----------------------------------------");
 		System.out.print("Deseja repetir (s/n)? ");
 		c = sc.next().charAt(0);

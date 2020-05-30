@@ -37,7 +37,7 @@ public class Horarios {
 	    int dlatimehor = Integer.valueOf(dla2h);
 	    
 	    if (dlatimehor<1 && dlatimemin<46){
-			   System.out.println("valor inferior a 46 min");
+			   System.out.println("Valor inferior a 46 minutos ");
 	   			}
 
 	    else if ((dlatimemin+min1)<60 && dlatimehor==0) {
@@ -69,7 +69,7 @@ public class Horarios {
 	    int dlatimehor = Integer.valueOf(dla2h);
 	    
 	    if (dlatimehor<1 && dlatimemin<46){
-			   System.out.println("recomeçar...");
+			   System.out.println("favor recomeçar...");
 	   			}
 		
 	    else if ((dlatimemin+min1)<60 && dlatimehor==0) {
@@ -96,7 +96,7 @@ public class Horarios {
 	
 	}
 	public static void clearScreen() {
-		System.out.print("\033[H\033[2J");
+		System.out.print("\033[H\033[2J");  //cls
 		System.out.flush();
 	}
 }
